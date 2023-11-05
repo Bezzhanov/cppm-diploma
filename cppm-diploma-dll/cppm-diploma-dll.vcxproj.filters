@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\Air">
+      <UniqueIdentifier>{cd21f652-7a8f-4e83-9200-89772235f507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Ground">
+      <UniqueIdentifier>{ff63aa1c-e57f-4000-868e-be23fc19ba5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Ground">
+      <UniqueIdentifier>{60fe8812-696f-4058-ae60-367cf204f680}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Air">
+      <UniqueIdentifier>{1471b244-6a7e-4738-988e-fc9d31c8f180}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cls_unit.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="cls_air.cpp">
+      <Filter>Исходные файлы\Air</Filter>
+    </ClCompile>
+    <ClCompile Include="cls_broom.cpp">
+      <Filter>Исходные файлы\Air</Filter>
+    </ClCompile>
+    <ClCompile Include="cls_eagle.cpp">
+      <Filter>Исходные файлы\Air</Filter>
+    </ClCompile>
+    <ClCompile Include="cls_magic_carpet.cpp">
+      <Filter>Исходные файлы\Air</Filter>
+    </ClCompile>
+    <ClCompile Include="cls_boots.cpp">
+      <Filter>Исходные файлы\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="cls_camel.cpp">
+      <Filter>Исходные файлы\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="cls_camel_fast.cpp">
+      <Filter>Исходные файлы\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="cls_centaur.cpp">
+      <Filter>Исходные файлы\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="cls_ground.cpp">
+      <Filter>Исходные файлы\Ground</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cls_unit.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_air.h">
+      <Filter>Файлы заголовков\Air</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_broom.h">
+      <Filter>Файлы заголовков\Air</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_eagle.h">
+      <Filter>Файлы заголовков\Air</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_magic_carpet.h">
+      <Filter>Файлы заголовков\Air</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_boots.h">
+      <Filter>Файлы заголовков\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_camel.h">
+      <Filter>Файлы заголовков\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_camel_fast.h">
+      <Filter>Файлы заголовков\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_centaur.h">
+      <Filter>Файлы заголовков\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="cls_ground.h">
+      <Filter>Файлы заголовков\Ground</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
